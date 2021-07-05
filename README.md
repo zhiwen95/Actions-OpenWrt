@@ -22,6 +22,47 @@ Build OpenWrt using GitHub Actions
 - It may take a long time to create a `.config` file and build the OpenWrt firmware. Thus, before create repository to build your own firmware, you may check out if others have already built it which meet your needs by simply [search `Actions-Openwrt` in GitHub](https://github.com/search?q=Actions-openwrt).
 - Add some meta info of your built firmware (such as firmware architecture and installed packages) to your repository introduction, this will save others' time.
 
+## Software
+
+额外软件源：
+
+1. https://github.com/kenzok8/openwrt-packages
+2. https://github.com/kenzok8/openwrt-packages
+3. https://github.com/kenzok8/openwrt-packages
+
+luci-app:
+
+```
+luci-app-accesscontrol
+luci-app-adbyby-plus
+luci-app-arpbind
+luci-app-autoreboot
+luci-app-bypass
+luci-app-ddns
+luci-app-dnsfilter
+luci-app-filetransfer
+luci-app-firewall
+luci-app-ipsec-vpnd
+luci-app-jd-dailybonus
+luci-app-nlbwmon
+luci-app-qbittorrent
+luci-app-ramfree
+luci-app-samba
+luci-app-ssr-plus
+luci-app-turboacc
+luci-app-unblockmusic
+luci-app-upnp
+luci-app-uugamebooster
+luci-app-vlmcsd
+luci-app-vsftpd
+luci-app-wol
+luci-app-xlnetacc
+luci-app-zerotier
+```
+
+
+
+
 ## Acknowledgments
 
 - [Microsoft Azure](https://azure.microsoft.com)
